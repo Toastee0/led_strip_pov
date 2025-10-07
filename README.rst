@@ -1,5 +1,5 @@
 This is a copy of the LED strip sample from the zepher samples with overlays and bindings for the xiao Nrf54L15 to be able to use the &xiao_spi mosi pin d10.
-Tested with nrf sdk 3.1.0
+Tested with nrf sdk 3.1.1
 
 .. zephyr:code-sample:: led-strip
    :name: LED strip
@@ -10,7 +10,10 @@ Tested with nrf sdk 3.1.0
 Overview
 ********
 
-This sample application demonstrates basic usage of the LED strip.
+This customized sample application demonstrates basic usage of the LED strip on the Xiao NRF54l15
+it also uses PWM on xiao pin d5, PGIO on pin d6, and expects a 90 led long light string on d10, which it drives via Xiao_spi mappings and a custom bidings file
+
+This code is based on the zephyr sdk driver sample "LED_STRIP" which acompanies nrf-sdk 3.1.1
 
 Requirements
 ************
