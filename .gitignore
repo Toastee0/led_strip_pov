@@ -1,0 +1,22 @@
+# Build directories
+build/
+*/build/
+
+# VS Code settings (optional - you might want to keep these)
+# .vscode/
+
+# Zephyr build artifacts
+zephyr/
+*.elf
+*.bin
+*.hex
+*.map
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
